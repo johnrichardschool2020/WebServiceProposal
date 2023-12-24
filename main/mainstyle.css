@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7091F5;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    text-align: center;
+
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(124, 124, 124);
+}
+
+
+/* TOP */
+.webservices {
+    text-align: center;
+}
+
+.cornellnotesdoc {
+    background-color: #ffffff;
+    padding: 50px;
+
+}
+
+
+
+
+/* head */
+.head {
+    display: flex;
+}
+
+.numberpage {
+    background-color:#A2C579;
+    align-items: stretch;
+    width: 5%;
+    height: 10%;
+    text-align: center;
+    border: solid black 2px;
+    margin: 2px;
+    padding: 2px;
+}
+.dynamicnumberpage {
+    text-align: center;
+}
+.notepage{
+    background:#ffffff;
+}
+
+
+.title { 
+    background-color:#FBF0B2;
+    align-items: stretch;
+    width: 95%;
+    height: 10%;
+    min-height: 100px;
+    text-align: center;
+    border: solid black 2px;
+    margin: 2px;
+    padding: 2px;
+}
+.dynamictitle {
+    text-align: center;
+}
+.notetitle {
+    background:#ffffff;
+}
+
+
+
+
+/* con */
+.con {
+    display: flex;
+}
+
+
+.keyword {
+    background-color:#D8B4F8;
+    align-items: stretch;
+    width: 15%;
+    height: auto;
+    text-align: center;
+    border: solid black 2px;
+    margin: 2px;
+    padding: 2px;
+}
+.dynamickeyword{
+    text-align: center;
+}
+.notekeyword {
+    background:#ffffff;
+}
+
+
+
+.content {
+    background-color:#FFC7EA;
+    align-items: stretch;
+    width: 85%;
+    height: auto;
+    min-height: 500px;
+    text-align: center;
+    border: solid black 2px;
+    margin: 2px;
+    padding: 2px;
+}
+.dynamiccontent {
+    text-align: center;
+}
+.notecontent {
+    background:#ffffff;
+}
+
+
+
+.summary {
+    background-color:#CAEDFF;
+    text-align: center;
+    height: 15%;
+    min-height: 250px;
+    border: solid black 2px;
+    margin: 2px;
+    padding: 2px;
+}
+.dynamicsummary {
+    text-align: center;
+}
+.notesummary {
+    background:#ffffff;
+}

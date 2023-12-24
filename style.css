@@ -1,0 +1,188 @@
+body{
+    margin:0;
+
+}
+.a{
+    text-decoration: none;
+}
+.brand{
+    display:inline-block;
+}
+nav{
+    background-color:rgb(30,30,30);
+    padding:15px 25px;
+}
+.title{
+    display:inline-block;
+    margin:0;
+    color:white;
+    font-family:verdana;
+    position:relative;
+    top:-3px;
+    left:10px;
+
+}
+.link-c{
+    float:right;
+    position:relative;
+    top:10px;
+
+}
+.link{
+    color:white;
+    text-decoration:none;
+    font-family:verdana;
+    margin:0 15px;
+    transition:0.2s;
+}
+.link:hover{
+    color:gold;
+
+}
+.button{
+    background-color:gold;
+    padding:10px 25px;
+    font-family:verdana;
+    text-decoration:none;
+    border-radius:15px;
+    color:white;
+    transition:0.2s;
+}
+.button:hover{
+    padding:10px 40px;
+}
+
+}
+.side-title{
+    padding: 15px 0;
+    text-align:center;
+    color:white;
+    font-family: verdana;
+    margin:0 auto;
+}
+.link-side{
+    margin:0;
+
+}
+
+.link2{
+    text-align:left;
+    color:white;
+    display:block;
+    text-decoration:none;
+    font-family:verdana;
+    transition:0.2s;
+    padding:15px 75px;
+    transition:0.2s;
+
+}
+.link2:hover{
+    color:black;
+
+}
+.title2{
+    display:inline-block;
+    margin-left:320px;
+    margin-top:100px;
+    color:black;
+    font-family:verdana;
+    padding:10px 10px;
+}
+.title3{
+    display:inline-block;
+    margin-left:320px;
+    margin-top:auto;
+    color:black;
+    font-family:verdana;
+    padding:10px 10px;
+}
+.example-container{
+    width: 100%;
+    height:auto;
+    background-color: rgba(5, 5, 5, 0.14);
+    margin-left:100%;
+    margin-left:300px;
+}
+.picture-1{
+    padding:10px 10px;
+}
+
+.xml-example-1{
+    display:inline-block;
+    margin-left:320px;
+    margin-top:auto;
+    color:black;
+    font-family:verdana;
+    padding:10px 10px;
+}
+.thisispicture{
+    display:inline-block;
+    color:black;
+    font-family:verdana;
+    padding-top:15px;
+    padding-bottom: 0;
+}
+.example-picture{
+    display:inline-block;
+    margin-left:320px;
+    margin-top:auto;
+    padding:10px 10px;
+}
+
+.xmlmeaning-con{
+    width: 100%;
+    height:auto;
+    background-color: rgba(5, 5, 5, 0.14);
+    margin-left:100%;
+    margin-left:300px;
+}
+.xmlmeaning{
+    color:black;
+    font-family:verdana;
+    margin-left:30px;
+    padding:10px 0;
+    
+    
+}
+
+/* CSS for the custom context menu */
+.wrapper{
+    visibility: hidden;
+    position: absolute;
+    width: 300px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+  }
+  .wrapper {
+    padding: 10px 12px;
+  }
+  
+  
+  .content #idtitle, .content #idcontent, .content #idkeyword, .content #idsummary, .content #idcornellnote {
+    list-style: none;
+    font-size: 22px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    padding: 5px 12px;
+  }
+
+  
+  .content #idtitle:hover, .content #idcontent:hover, .content #idkeyword:hover, .content #idsummary:hover, .content #idcornellnote:hover{
+    background: #f2f2f2;
+  }
+  
+  .content #idtitle span, .content #idcontent span, .content #idkeyword span, .content #idsummary span, .content #idcornellnote span {
+    margin-left: 8px;
+    font-size: 19px; 
+  }
+  .content .lineh{
+    display: flex;
+    margin-top: -5px;
+    padding: 5px 12px;
+    border-top: 1px solid #ccc;
+  }
